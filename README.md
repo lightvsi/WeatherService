@@ -18,18 +18,18 @@ Content-Type: application/json
 [
     {
         "service": "openweather",
-        "temp": "12.36",
+        "temp": "12",
         "desc": "Clouds"
     },
     {
         "service": "weatherapi",
-        "temp": "13.0",
-        "desc": "Overcast"
+        "temp": "11.0",
+        "desc": "Clear"
     },
     {
         "service": "weatherbit",
-        "temp": "28.9",
-        "desc": "Clear sky"
+        "temp": "14.4",
+        "desc": "Scattered clouds"
     }
 ]
 ```
@@ -43,18 +43,15 @@ Content-Type: application/json
 [
     {
         "service": "openweather",
-        "temp": "12.36",
-        "desc": "Clouds"
+        "online": true
     },
     {
         "service": "weatherapi",
-        "temp": "13.0",
-        "desc": "Overcast"
+        "online": true
     },
     {
         "service": "weatherbit",
-        "temp": "28.9",
-        "desc": "Clear sky"
+        "online": true
     }
 ]
 ```
