@@ -1,5 +1,5 @@
 # WeatherService
-WeatherService - REST API проект, который занимающийся агрегацией данных о погоде из нескольких источников. 
+WeatherService - REST API проект, который занимается агрегацией данных о погоде из нескольких источников. 
 
 ## How to build and run
 ```shell script
