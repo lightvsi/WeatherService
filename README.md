@@ -11,7 +11,6 @@ docker-compose up —build
 Получить список данных о погоде из сервисов, которыми пользуется WeatherService.
 ```http request
 GET http://localhost:8080/weather?city=moscow
-Content-Type: application/json
 ```
 
 ```json
@@ -36,7 +35,6 @@ Content-Type: application/json
 Получить данные о состоянии сервисов.
 ```http request
 GET http://localhost:8080/status
-Content-Type: application/json
 ```
 
 ```json
